@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- CSS -->
      <link rel="stylesheet" href="index.css">
     <title>Password Generator</title>
@@ -26,21 +29,21 @@
             </button>
             <div class="divider"></div>
             <div>
-                <div class="password-options">
+                <div class="pw-options">
                     <button
-                        id="password-option-1"
-                        class="btn-option option1"
+                        id="pass-one"
+                        class="btn-option"
                         onclick="copyPw()">
                         Password Option 1
                     </button>
                     <button
-                        id="password-option-2"
-                        class="btn-option option2"
+                        id="pass-two"
+                        class="btn-option"
                         onclick="copyPw()">
                         Password Option 2
                     </button>
                 </div>
-                <div style="text-align: center;">
+                <div class="copy-pw">
                     <p>Click to Copy Password</p>
                 </div>
             </div>
