@@ -112,6 +112,20 @@ button {
     background-color: #263548;
     font-weight: 400;
     padding: 10px 15px;
+    transition-property: color, background-color, font-weight;
+    transition-duration: 2s;
+}
+
+.copied {
+    color: #141c25;
+    font-weight: 500;
+    background-color: #d48831;
+}
+
+@media (max-width: 450px) {
+    .btn-option {
+        font-size: .5rem;
+    }
 }
 
 .copy-pw {
@@ -127,4 +141,8 @@ button {
     width: 200px;
     margin: 20px auto;
     text-align: center;
+}
+
+.hidden {
+    display: none;
 }

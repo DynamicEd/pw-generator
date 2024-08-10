@@ -20,5 +20,9 @@ Toggle options
 [--] Insert on Button 1 & 2
 [--] Check for differences in pw and regenerate if similar
 -- Can I store them locally? Short term
-> Showing 2 Random PW
-> Click to Copy function
+[>] Showing 2 Random PW
+[>] Verify Random
+[--] Check for differences in pw
+[--] Regenerate if similar
+[>] Click to Copy function
+> Change from onclick to eventlistener

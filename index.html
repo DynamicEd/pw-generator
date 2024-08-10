@@ -27,24 +27,24 @@
                 onclick="generatePw()">
                 Generate Passwords
             </button>
-            <div class="divider"></div>
-            <div>
+            <div id="create-pw" class="hidden">
+                <div class="divider"></div>
                 <div class="pw-options">
                     <button
                         id="pass-one"
-                        class="btn-option"
-                        onclick="copyPw()">
+                        class="btn-option copied"
+                        onclick="copyOne()">
                         Password Option 1
                     </button>
                     <button
                         id="pass-two"
                         class="btn-option"
-                        onclick="copyPw()">
+                        onclick="copyTwo()">
                         Password Option 2
                     </button>
                 </div>
                 <div class="copy-pw">
-                    <p>Click to Copy Password</p>
+                    <p id="tool-tip">Click to Copy Password</p>
                 </div>
             </div>
         </div>
