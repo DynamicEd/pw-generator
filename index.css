@@ -122,12 +122,6 @@ button {
     background-color: #d48831;
 }
 
-@media (max-width: 450px) {
-    .btn-option {
-        font-size: .5rem;
-    }
-}
-
 .copy-pw {
     text-align: center;
     margin-top: 25px;
